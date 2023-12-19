@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Mark";
+  src: url("../font/Mark-Heavy.woff2") format("woff2"),
+    url("../font/Mark-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mark";
+  src: url("../font/Mark-Regular.woff2") format("woff2"),
+    url("../font/Mark-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.modules__content-slider #card1 {
+  background: url(../img/slide_3_m.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.home-page_link {
+  color: #fff9f9;
+  margin-bottom: 20px;
+}
+.home-page_link:hover {
+  color: black;
+}
+
+.module__video-item .play .attention {
+  font-size: 20px !important;
+}
+
+.menu__block-schedule:hover {
+  background: blue;
+}
+
+.download {
+  cursor: pointer;
+}
